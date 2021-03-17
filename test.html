@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Informatik</title>
+	<img src="float: none">
+	<style type="text/css">
+		form{
+			padding: 20px;
+			background-color: lightgreen;
+			display: inline-block;
+		}
+
+		
+	table, th, td {
+  border: 1px solid black;
+}
+
+	table {
+  width: 100%;
+}
+
+	th, td {
+  padding: 15px;
+  text-align: left;	
+}
+
+
+
+	</style>
+
+</head>
+<body>
+<meta charset="utf-8">
+	<script type="text/javascript" src="jstest.js"></script>
+
+<h2>Profilside</h2>
+	<table border="1">
+		<caption><b>Min familie</b></caption>
+		<tr><th>Navn</th><th>Alder</th><th>Højde</th><th>Øjenfarve</th></tr>
+		<tr><th>Jesper</th><th>47</th><th>176</th><th>Blå</th></tr>
+		<tr><th>Jannie</th><th>41</th><th>178</th><th>Blå</th></tr>
+		<tr><th>William</th><th>14</th><th>170</th><th>Grøn</th></tr>
+	</table>
+<h2>Om mig</h2>
+
+<p>Jeg hedder Nicolai og går på HHX, jeg er 17 år.</p>
+
+<p><img src="fammilie.jpg" alt="Min familie" style="width:170px;height:170px;">
+Her er et familie billede.</p>
+
+<h1>Indtast dine oplysninger</h1>
+
+<form action="/action_page.php">
+  <input type="text" id="fornavn" name="vehicle1" value="Indtast fornavn">
+  <label for="vehicle1">1</label><br>
+  <input type="text" id="vehicle2" name="vehicle2" value="Indtast efternavn">
+  <label for="vehicle2"> 2</label><br>
+  <input type="text" id="vehicle3" name="vehicle3" value="Indtast adresse">
+  <label for="vehicle3"> 3</label><br><br>
+  <label for="cars">Vælg land:</label>
+  <select name="cars" id="cars">
+    <option value="Danmark">Danmark</option>
+    <option value="Norge">Norge</option>
+    <option value="Sverige">Sverige</option>
+  </select>
+  <br><br>
+  <input type="submit" value="Færdig">
+</form>
+
+</body>
+</html>
