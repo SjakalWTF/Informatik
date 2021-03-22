@@ -30,7 +30,7 @@
 
 </head>
 <body>
-<meta charset="utf-8">
+<meta charset="UTf-8">
 	<script type="text/javascript" src="jstest.js"></script>
 
 <h2>Profilside</h2>
@@ -66,6 +66,12 @@ Her er et familie billede.</p>
   <br><br>
   <input type="submit" value="Færdig">
 </form>
+
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">TÆND LYSET</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">SLUK LYSET</button>
 
 </body>
 </html>
